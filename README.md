@@ -6,22 +6,29 @@ A small ETL pipeline that combines an orders CSV and a nested product-reviews JS
 
 ```
 .
-├── extract.py   # read the raw files into DataFrames (no cleaning)
-├── clean.py     # clean each table; return valid rows, rejected rows, duplicate count
-├── load.py      # connect to Postgres and upsert (parents before children)
-├── main.py      # run extract → clean → errors file → count check → load
-├── .env         # database credentials (not committed)
-└── errors.csv   # created on each run: every rejected row and why
+├── data/
+│   ├── product_reviews.json   # nested reviews by product
+│   └── orders__1_.csv         # orders (one row per order)
+├── extract.py        # read the raw files into DataFrames (no cleaning)
+├── clean.py          # clean each table; return valid rows, rejected rows, duplicate count
+├── load.py           # connect to Postgres and upsert (parents before children)
+├── main.py           # run extract → clean → errors file → count check → load
+├── schema.sql        # CREATE TABLE statements
+├── requirements.txt  # Python dependencies
+├── .env.example      # template for your .env (the real .env is not committed)
+└── errors.csv        # created on each run: every rejected row and why
 ```
 
 ## Setup
 
-1. Install dependencies:
+1. Clone the repo and install dependencies:
    ```
-   pip install pandas psycopg2-binary python-dotenv
+   git clone https://github.com/Robiah-9/Multi-Format-Warehouse.git
+   cd Multi-Format-Warehouse
+   pip install -r requirements.txt
    ```
-2. Create a database (e.g. `warehouse`) and run the table script below in pgAdmin's Query Tool.
-3. Create a `.env` file (no quotes, no spaces around `=`) and add it to `.gitignore`:
+2. Create a PostgreSQL database (e.g. `warehouse`) and run `schema.sql` in pgAdmin's Query Tool or with `psql`.
+3. Copy `.env.example` to `.env` and fill in your credentials (no quotes, no spaces around `=`):
    ```
    DB_HOST=localhost
    DB_PORT=5432
@@ -29,11 +36,11 @@ A small ETL pipeline that combines an orders CSV and a nested product-reviews JS
    DB_USER=postgres
    DB_PASSWORD=your_password
    ```
-4. Set `PRODUCTS_JSON` and `ORDERS_CSV` at the top of `main.py`.
-5. Run:
+4. Run from the project folder (the sample data in `data/` is already wired up):
    ```
    python main.py
    ```
+   To use your own files, change `PRODUCTS_JSON` and `ORDERS_CSV` at the top of `main.py`.
 
 ## Database schema
 
@@ -155,6 +162,5 @@ WHERE price_imputed;
 - Missing prices are filled with the product mean, which is an estimate. Filter on `price_imputed` when exact figures matter.
 - Rejected rows are not reloaded automatically; fix the source data and run again.
 - Customers are plain IDs with no dimension table.
-
 
 **Author:** Robiat
