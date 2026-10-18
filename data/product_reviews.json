@@ -1,0 +1,291 @@
+{
+  "generated_at": "2026-10-07",
+  "source": "shop_reviews_export",
+  "products": [
+    {
+      "product_id": "P001",
+      "product_name": "Wireless Mouse",
+      "category": "accessories",
+      "reviews": []
+    },
+    {
+      "product_id": "P002",
+      "product_name": "Bluetooth Speaker",
+      "category": "audio",
+      "reviews": []
+    },
+    {
+      "product_id": "P003",
+      "product_name": "Office Chair",
+      "category": "Furniture",
+      "reviews": [
+        {
+          "review_id": "REV0001",
+          "customer_id": "CUST209",
+          "rating": 1,
+          "comment": "Good value for money",
+          "review_date": "2025-12-17"
+        },
+        {
+          "review_id": "REV0002",
+          "customer_id": "CUST229",
+          "rating": 1,
+          "comment": "Arrived late but fine",
+          "review_date": "January 15, 2026"
+        }
+      ]
+    },
+    {
+      "product_id": "P004",
+      "product_name": "Laptop Stand",
+      "category": "Accessories",
+      "reviews": [
+        {
+          "review_id": "REV0003",
+          "customer_id": "CUST222",
+          "rating": 6,
+          "comment": "Very sturdy",
+          "review_date": "February 17, 2025"
+        },
+        {
+          "review_id": "REV0004",
+          "customer_id": "CUST227",
+          "rating": 4,
+          "comment": "Stopped working after a week",
+          "review_date": "2025-07-06"
+        },
+        {
+          "review_id": "REV0005",
+          "customer_id": "CUST225",
+          "rating": 5,
+          "comment": "Arrived late but fine",
+          "review_date": "2025-01-27"
+        },
+        {
+          "review_id": "REV0006",
+          "customer_id": "CUST214",
+          "rating": 5,
+          "comment": "Love it",
+          "review_date": "2025-02-14"
+        },
+        {
+          "review_id": "REV0007",
+          "customer_id": "CUST215",
+          "rating": 5,
+          "comment": "Very sturdy",
+          "review_date": "August 10, 2025"
+        },
+        {
+          "review_id": "REV0003",
+          "customer_id": "CUST222",
+          "rating": 6,
+          "comment": "Very sturdy",
+          "review_date": "February 17, 2025"
+        }
+      ]
+    },
+    {
+      "product_id": "P005",
+      "product_name": "Desk Lamp",
+      "category": "home",
+      "reviews": [
+        {
+          "review_id": "REV0008",
+          "customer_id": "CUST221",
+          "rating": 3,
+          "comment": "Not worth the price",
+          "review_date": "2025-06-22"
+        },
+        {
+          "review_id": "REV0009",
+          "customer_id": "CUST236",
+          "rating": 1,
+          "comment": "Exactly as described",
+          "review_date": "19/01/2026"
+        },
+        {
+          "review_id": "REV0010",
+          "customer_id": "CUST207",
+          "rating": 2,
+          "comment": "Would buy again",
+          "review_date": "February 17, 2025"
+        },
+        {
+          "review_id": "REV0008",
+          "customer_id": "CUST221",
+          "rating": 3,
+          "comment": "Not worth the price",
+          "review_date": "2025-06-22"
+        }
+      ]
+    },
+    {
+      "product_id": "P006",
+      "product_name": "Phone Case",
+      "category": "Accessories",
+      "reviews": [
+        {
+          "review_id": "REV0011",
+          "customer_id": "CUST213",
+          "rating": 5,
+          "comment": "Stopped working after a week",
+          "review_date": "29/11/2025"
+        },
+        {
+          "review_id": "REV0012",
+          "customer_id": "CUST218",
+          "rating": 4,
+          "comment": "Average quality",
+          "review_date": "2025-08-16"
+        },
+        {
+          "review_id": "REV0013",
+          "customer_id": "CUST210",
+          "rating": 1,
+          "comment": "Stopped working after a week",
+          "review_date": "November 23, 2025"
+        },
+        {
+          "review_id": "REV0011",
+          "customer_id": "CUST213",
+          "rating": 5,
+          "comment": "Stopped working after a week",
+          "review_date": "29/11/2025"
+        }
+      ]
+    },
+    {
+      "product_id": "P007",
+      "product_name": "Power Bank",
+      "category": "ELECTRONICS",
+      "reviews": [
+        {
+          "review_id": "REV0014",
+          "customer_id": "CUST232",
+          "rating": 5,
+          "comment": "Very sturdy",
+          "review_date": "2025-11-10"
+        },
+        {
+          "review_id": "REV0015",
+          "customer_id": "CUST202",
+          "rating": 4,
+          "comment": "Would buy again",
+          "review_date": "27/02/2025"
+        },
+        {
+          "review_id": "REV0016",
+          "customer_id": "CUST201",
+          "rating": 5,
+          "comment": "Love it",
+          "review_date": "2025-09-08"
+        },
+        {
+          "review_id": "REV0017",
+          "customer_id": "CUST209",
+          "rating": 4,
+          "comment": "Arrived late but fine",
+          "review_date": "2025-07-12"
+        }
+      ]
+    },
+    {
+      "product_id": "P008",
+      "product_name": "Notebook Set",
+      "category": "Stationery",
+      "reviews": [
+        {
+          "review_id": "REV0018",
+          "customer_id": "CUST220",
+          "rating": 4,
+          "comment": "Stopped working after a week",
+          "review_date": "2025-01-26"
+        },
+        {
+          "review_id": "REV0019",
+          "customer_id": "CUST233",
+          "rating": 4,
+          "comment": "Average quality",
+          "review_date": "October 11, 2025"
+        },
+        {
+          "review_id": "REV0020",
+          "customer_id": "CUST230",
+          "rating": 4,
+          "comment": "Would buy again",
+          "review_date": "27/04/2025"
+        },
+        {
+          "review_id": "REV0021",
+          "customer_id": "CUST219",
+          "rating": 3,
+          "comment": "Very sturdy",
+          "review_date": "March 10, 2025"
+        },
+        {
+          "review_id": "REV0022",
+          "customer_id": "CUST214",
+          "rating": 5,
+          "comment": "Good value for money",
+          "review_date": "2025-10-24"
+        }
+      ]
+    },
+    {
+      "product_id": "P009",
+      "product_name": "Headphones",
+      "category": "Audio",
+      "reviews": [
+        {
+          "review_id": "REV0023",
+          "customer_id": "CUST216",
+          "rating": 2,
+          "comment": "Exactly as described",
+          "review_date": "07/06/2025"
+        },
+        {
+          "review_id": "REV0024",
+          "customer_id": "CUST218",
+          "rating": 6,
+          "comment": "Would buy again",
+          "review_date": "12/01/2026"
+        },
+        {
+          "review_id": "REV0025",
+          "customer_id": "CUST203",
+          "rating": 2,
+          "comment": "Very sturdy",
+          "review_date": "October 02, 2025"
+        },
+        {
+          "review_id": "REV0026",
+          "customer_id": "CUST220",
+          "rating": 5,
+          "comment": "Stopped working after a week",
+          "review_date": "16/07/2025"
+        }
+      ]
+    },
+    {
+      "product_id": "P010",
+      "product_name": "Keyboard",
+      "category": "Accessories",
+      "reviews": [
+        {
+          "review_id": "REV0027",
+          "customer_id": "CUST229",
+          "rating": 2,
+          "comment": "Love it",
+          "review_date": "03/02/2025"
+        },
+        {
+          "review_id": "REV0028",
+          "customer_id": "CUST220",
+          "rating": 2,
+          "comment": "Good value for money",
+          "review_date": "December 04, 2025"
+        }
+      ]
+    }
+  ]
+}
